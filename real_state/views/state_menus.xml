@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+    <!-- Menú raíz en la barra principal -->
+    <menuitem id="menu_real_estate_root" name="Inmobiliaria" sequence="10"/>
+
+    <!-- Submenú que apunta a la acción (vista de propiedades) -->
+    <menuitem id="menu_real_estate_property" name="Propiedades" parent="menu_real_estate_root" action="action_property_model" sequence="20"/>
+</odoo>
